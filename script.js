@@ -9,24 +9,26 @@ num2 = parseFloat(num2);
 
 
 if (operator === "+") {
-    document.write(num1 + num2);
+    window.alert(num1 + num2);
 }
 
 else if (operator === "-") {
-    document.write(num1 - num2);
+    window.alert(num1 - num2);
 }
 
 else if (operator === "*") {
-    document.write(num1 * num2);
+    window.alert(num1 * num2);
 }
 
 else if (operator === "/") {
-    document.write(num1 / num2);
+    window.alert(num1 / num2);
 }
 
-else {
-    document.write(Error);
-}
+else window.alert("Error");
+
+// else {
+//     window.alert(Error);
+// }
 
 
     
