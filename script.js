@@ -20,8 +20,12 @@ else if (operator === "*") {
     document.write(num1 * num2);
 }
 
-else {
+else if (operator === "/") {
     document.write(num1 / num2);
+}
+
+else {
+    document.write(Error);
 }
 
 
